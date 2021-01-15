@@ -4,5 +4,10 @@ body {font-family: roboto;
 }
 
 header {
-    background-color: #EAC926; ;
+    background-color: #EAC926; 
 }
+
+h1 {font-size: 24px;}
+.precio {font-size: 18px;}
+.descuento {font-size: 16px;}
+h3 {font-size: 16px;}
