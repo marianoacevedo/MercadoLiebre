@@ -1,13 +1,73 @@
 body {font-family: roboto;
       font-size: 12px;
+      margin: 0px;
+}
+
+header{
+      background-color: #EAC926;
+      padding: 15px;
+}
+
+.nav-list{
+      text-align: left;
+}
+
+.nav-link-list{
+      list-style-type: none;
+}
+
+.burger-center{
+      text-align: center;
+}
+
+.burger-menu{
+      background-color:  #03264C;
+      color: white;
+}
+
+.centro{text-align: center;}
+
+main{
+      width: 90%;
+      border: solid 1px #ebebeb;
+      background-color:#ebebeb;
+      padding: 15px;
+      margin: 0px;
 
 }
 
-header {
-    background-color: #EAC926; 
-}
 
 h1 {font-size: 24px;}
+
 .precio {font-size: 18px;}
-.descuento {font-size: 16px;}
+
+.descuento {font-size: 16px;
+            color:#39b54a ;
+}
+
+
 h3 {font-size: 16px;}
+
+footer {
+      text-align: center;
+     border: solid 2px #ebebeb;
+     padding-top: 15px;
+      
+}
+
+.iconos{
+       color:#03264C;
+       font-size: 2em;
+       margin-bottom: 10px;
+
+}
+
+h4{
+      height: 0px;
+      
+}
+
+.copy{
+      padding-top: 20px;
+}
+      
