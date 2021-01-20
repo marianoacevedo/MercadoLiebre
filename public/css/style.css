@@ -1,11 +1,17 @@
+* { 
+   padding: 0px;
+   box-sizing: border-box;
+}
 body {font-family: roboto;
-      font-size: 12px;
+      background-color: #ebebeb;
       margin: 0px;
+      
 }
 
 header{
       background-color: #EAC926;
-      padding: 15px;
+      padding:15px;
+      
 }
 
 .nav-list{
@@ -18,11 +24,16 @@ header{
 
 .burger-center{
       text-align: center;
+      
 }
-
 .burger-menu{
       background-color:  #03264C;
       color: white;
+      border-radius: 5px;
+      padding: 5px;
+      
+
+      
 }
 
 .centro{text-align: center;}
@@ -31,9 +42,11 @@ main{
       width: 90%;
       border: solid 1px #ebebeb;
       background-color:#ebebeb;
-      padding: 15px;
-      margin: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      
 
+      
 }
 
 
@@ -48,17 +61,21 @@ h1 {font-size: 24px;}
 
 h3 {font-size: 16px;}
 
+p {font-size: 12px}
+
 footer {
       text-align: center;
-     border: solid 2px #ebebeb;
-     padding-top: 15px;
-      
+      padding: 10%;
+      background-color: white;
+      border: solid 2px #ebebeb;
+     
 }
 
 .iconos{
        color:#03264C;
        font-size: 2em;
        margin-bottom: 10px;
+       
 
 }
 
