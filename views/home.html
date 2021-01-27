@@ -14,27 +14,31 @@
 </head>
 <body>
     <header>
-    <img src="/img/logo-mercado-liebre.svg" width="50%" alt="logo de mercado liebre">
+    <div class="logo-buscador">
+    <div class="logo-liebre"><img src="/img/logo-mercado-liebre.svg" width="100%" alt="logo de mercado liebre"></div>
    
-    <div><input type="text" placeholder="Buscá productos y marcas">
+    <div class="buscador"><input type="text" placeholder="Buscá productos y marcas">
     <button>
         <i class="fas fa-search"></i>
-    </button></div>
+    </button>
+   </div>
+   <div class="centro">
+    <p><i class="fas fa-hand-holding-usd"></i>Compre en cuotas y sin targeta de credito</p>
+   </div>
+    </div>
     
-    <p class="centro"><i class="fas fa-hand-holding-usd"></i>Compre en cuotas y sin targeta de credito</p>
 <nav>
     <div class="nav-list">
     <ul class="nav-link-list">
-        <li><a style = "text-decoration:none;Color:black"; href = "#">Ofertas</a></li>
-        <li><a style = "text-decoration:none;Color:black"; href = "#">Tienda Oficiales</a></li>
-        <li><a style = "text-decoration:none;Color:black"; href = "#">Vender</a></li>
-        <li><a style = "text-decoration:none;Color:black"; href="#">Ayuda</a></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href = "#">Ofertas</a></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href = "#"> Tiendas Oficiales</a></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href = "#">Vender</a></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href="#">Ayuda</a></li>
     </ul>
-    <p></p>
     <ul class="nav-link-list">
-        <li><a style = "text-decoration:none;Color:black"; href="#">Creá tu cuenta</a><i class="fas fa-address-card"></i></li>
-        <li><a style = "text-decoration:none;Color:black"; href="#">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
-        <li><a style = "text-decoration:none;Color:black"; href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href="#">Creá tu cuenta</a><i class="fas fa-address-card"></i></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href="#">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+        <li><a class="a" style = "text-decoration:none;Color:black"; href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
     </ul>
     </div>
     <div class="burger-center">
@@ -48,8 +52,10 @@
    <section><img src="/img/img-home-banner.jpg" width="100%" alt="Banner de ofertas"></section>
 
    <main>
-       <h1>Basado en su ultima visita</h1></div>
-      <article class="articulo">
+       <seccion class="product-section">
+       <h1>Basado en su ultima visita</h1>
+     <div class="product-list"> 
+         <article class="articulo">
            <div class="img"><img src="img/img-cafetera-moulinex.jpg" width="100%" alt="Imagen de la cafetera"></div>
           <div class="logo"><i class="fas fa-truck"></i></div>
            <div class="descripcion">
@@ -91,9 +97,14 @@
         </div>
         <div class="product">
         <h3>SmartTv Samsung 43"</h3>
-       </div>
+        </div>
        </article>
-       <div><h1>Ofertas</h1></div>
+       </div>
+    </seccion>
+
+       <seccion class="product-section">
+       <h1>Ofertas</h1>
+       <div class="product-list">
        <article class="articulo">
         <div class="img"><img src="img/img-cafetera-moulinex.jpg" width="100%" alt="Imagen de la cafetera"></div>
            <div class="logo"><i class="fas fa-truck"></i></div>
@@ -138,6 +149,8 @@
               <h3>SmartTv Samsung 43"</h3>
         </div>
        </article>
+    </div>
+</section>
    </main>
    <footer>
        <section>
