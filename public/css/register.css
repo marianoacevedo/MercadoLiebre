@@ -2,6 +2,7 @@
     display: flex;
     justify-content:center;
     padding: 20px 0px;
+
 }
 
 .input{
@@ -13,12 +14,28 @@
 }
 
 .button{
-    display: block;
-    width: 12.5%;
+    display:block;
+    width: 50%;
     border-radius: 5px;
-    margin: 10px;
+    margin: auto;
     padding: 10px;
     background-color:  #03264C;
     font-size: 14px;
     border: none;
     color: white;
+}
+
+.titulo{
+    font-size: 15px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.radio{
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.interes .check{
+    padding: 10px 0px;
+}

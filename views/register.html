@@ -61,37 +61,50 @@
             <label for="email"></label>
             <input class="input" type="email" name="email" id="email" placeholder="E-mail" required>
         </div>
-             <label>Fecha de Nacimiento</label>
+             <div class="titulo"><label>Fecha de Nacimiento</label></div>
         <div class="box">
              <input class="input" type="date" name="fecha">
         </div>
-        <div class="box">  
+        <div class="box">
             <label for="domicilio"></label>
             <input class="input" type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required>
         </div>
-            <label>Perfil de Usuario</label>
+            <div class="titulo"><label>Perfil de Usuario</label></div>
         <div class="box">
             <input type="radio" name="perfil" value="Comprador">
-            <label>Comprador</label>
+            <label class="radio">Comprador</label>
             <input type="radio" name="perfil" value="Vendedor">
-            <label>Vendedor</label>
+            <label class="radio">Vendedor</label>
         </div>
-            <label>Categoria de Interes</label>
+            <div class="titulo"><label>Categoria de Interes</label></div>
         <div class="box">
-            <input type="checkbox" name="interes" value="Electro">
-            <label>Electro</label>
-            <input type="checkbox" name="interés" value="Moda">
-            <label>Moda</label>
-            <input type="checkbox" name="interes" value="Hogar">
-            <label>Hogar</label>
-            <input type="checkbox" name="interes" value="Juguetería">
-            <label>Jugueteria</label>
-            <input type="checkbox" name="interes" value="Vida sana">
-            <label>Vida Sana</label>
+        <div class="interes">
+            <div class="check">
+                <input type="checkbox" name="interes" value="Electro">
+                <label>Electro</label>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="interés" value="Moda">
+                <label>Moda</label>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="interes" value="Hogar">
+                <label>Hogar</label>   
+            </div>
+            <div class="check">
+                <input type="checkbox" name="interes" value="Juguetería">
+                <label>Jugueteria</label>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="interes" value="Vida sana">
+                <label>Vida Sana</label>
+            </div>
         </div>
-            <label>Foto de Usuario</label>
+        </div>
+       
+        <div class="titulo"><label>Foto de Usuario</label></div>
         <div class="box">
-            <input type="file" name="foto" accept=".jpg" multiple>
+           <input type="file" name="foto" accept=".jpg" multiple>
         </div>
         <div class="box">
             <label for="Contraseña"></label>
@@ -101,8 +114,12 @@
             <label for="Constraseña"></label>
             <input class="input" type="password" name="contraseña" id="contraseña" placeholder="Repetir contraseña" required>
         </div>
-        <div class="box">
+            <label for= "Enviar"></label>
+            <div class="box">
             <button class="button" type="submit">Enviar</button>
+            </div>
+            <label for= "Borrar"></label>
+            <div class="box">
             <button class="button" type="reset">Borrar</button>
         </div>
      </form>
