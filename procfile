@@ -1,1 +1,1 @@
-web: node ./DIGITALHOUSE/MercadoLiebre/index.js
+web: node ./DigitalHouse/MercadoLiebre/index.js
