@@ -100,7 +100,6 @@ main{
 
 .articulo{
           background-color: white;
-          
 }
           
 
@@ -132,7 +131,8 @@ main{
       position: relative;
       right: 20px;
       top: -15px;
-      display:block
+      display:block;
+      transition: transform, 0.5s;
 }
 
 
@@ -152,12 +152,14 @@ h1 {font-size: 24px;}
             
 }
 
+.product{
+      display: none;
+}
 
 h3 {font-size: 16px;
     padding-bottom: 15px;
     padding-left: 10px;
-    
-   
+    transition: opacity, 0.5s;
 }
 
 p {font-size: 12px}
@@ -174,7 +176,7 @@ footer {
        color:#03264C;
        font-size: 2em;
        margin-bottom: 10px;
-       
+       transition: color, 0.5s;
 
 }
 
@@ -187,9 +189,6 @@ h4{
       padding-top: 20px;
 }
       
-.product{
-      display: none;
-}
 
 @media (min-width: 361px) {
       .product,
@@ -258,16 +257,36 @@ h4{
       .articulo{
                 margin: 0px 10px;
                 width: 23%;
-          
 }  
 
-      .product{
-               display: none;
-}  
+      h3{
+          opacity:0;
+}       
       
-      
-      .articulo:hover .product {
-                                display: initial;
+      .articulo:hover h3{
+                         opacity:1;
+                                
+}
+
+      .articulo:hover .logo{
+                             transform: rotate(-0.25turn);
+}
+
+      .option{
+                display: flex;
+                flex-wrap: nowrap;
+}
+
+      .copy{
+             display: flex;
+}
+
+      section{
+               padding:0px 20px;
+}
+
+       .iconos:hover{
+                     color: #0022AA;
 }
 
     } 
